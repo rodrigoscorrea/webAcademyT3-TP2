@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md bg-light border-bottom border-body sticky-top">
+    <nav className="navbar navbar-expand-md bg-light border-bottom border-body sticky-top" role="navbar">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           Vitrine WA
@@ -17,6 +17,8 @@ export default function Navbar() {
           aria-controls="navbarCollapse"
           aria-expanded="false"
           aria-label="Abrir menu"
+          role="button"
+          name="dropdown-navbar"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
