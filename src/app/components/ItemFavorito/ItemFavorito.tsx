@@ -42,6 +42,7 @@ export default function ItemFavorito({
 
       <td>
         <button
+          role="button"
           onClick={() => removerFavorito(itemFavorito.id)}
           className="btn btn-outline-danger btn-sm"
         >
